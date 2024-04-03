@@ -21,10 +21,12 @@ void main() {
 
   print(numero);
 
-  String nombre = "JoseJJJJJJJJJJ";
+  String nombre = "    JoseJJJ    JJJJJJJ    ";
 
   print(nombre.toUpperCase());
   print(nombre.toLowerCase());
+
+  print("MI OBJETO TRIMEADO::::${nombre.trim()}");
 
   print(nombre.length);
 
