@@ -5,7 +5,8 @@ void main() {
   String continuar = "no";
   do {
     contador++;
-    stdout.writeln('¿Desea continuar? "(Y/n)"');
+    //stdout.writeln('¿Desea continuar? "(Y/n)"');
+        print('¿Desea continuar? "(Y/n)"');
 
     continuar = stdin.readLineSync().toString();
     print(contador);
